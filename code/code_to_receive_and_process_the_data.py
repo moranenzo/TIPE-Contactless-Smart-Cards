@@ -100,4 +100,53 @@ def reception(L:list, n:int)->list:
         i += 1
     i += 1  # removing the signal bit (the first 1)
     if i + n > len(L):
-        print('The message is cut off, please try
+        print('The message is cut off, please try again')
+    else:
+        return L[i:i+n]
+
+recep_data = reception(cleaned_data, nb_val)
+assert type(recep_data) == list
+
+def voltage_to_binary(L:list)->list:
+    """Converts the voltages (values between 0 and 1023) recorded in L
+    and returns the corresponding binary values"""
+    newL = []
+    for elt in L:
+        if elt > limit:
+            newL.append(1)
+        else:
+            newL.append(0)
+    return newL
+
+binary_data = voltage_to_binary(recep_data)
+print('binary_data : ', binary_data)
+
+
+def binary_to_text(L:list)->str:
+    """Converts a binary string and returns the corresponding text"""
+    text = ""  # empty string that will contain the final text
+    octets = [L[i:i+8] for i in range(0, len(L), 8)]  # split the list into 8-bit chunks
+
+    for octet in octets:
+        ascii_val = 0
+
+        for i in range(8):
+            ascii_val += octet[7-i] * (2**i)  # calculate the chunk value in base 10
+
+        char = chr(ascii_val)  # convert the ASCII code to character
+        text += char
+    return text
+
+
+message = binary_to_text(binary_data)
+print('message : ', message)
+
+
+write(binary_data)    # writing the values into data.txt
+
+vals, temps = np.loadtxt("data.txt", delimiter=";", unpack=True)
+
+
+"""Plotting values"""
+plt.plot(temps, vals, "ob")
+plt.show()
