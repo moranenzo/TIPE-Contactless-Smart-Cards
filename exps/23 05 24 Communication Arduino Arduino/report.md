@@ -22,10 +22,6 @@
     A method to detect the start of the message was implemented. The binary message was preceded by a '1' that symbolized the beginning of the transmission. This allowed us to initiate the detection process well before launching the message. The system would detect only '0's until it received the signal (i.e., the '1' preceding the binary message).
 </p>
 
-<p>
-  <strong>Results:</strong> This idea worked, and the code was successfully transmitted.
-</p>
-
 <h2>Results</h2>
 <p>
   This idea worked, and the code was successfully transmitted. We got enough time to complete the transmission by adding a code to convert the binary back into a readable message. The word 'MP' sent by the first Arduino was successfully received by the second using the system.
