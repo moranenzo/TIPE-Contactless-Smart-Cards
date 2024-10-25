@@ -2,7 +2,7 @@
 
 <h2>Objective of the Experiment</h2>
 <p>
-  The objective of this experiment was to apply the knowledge about demodulation I gained in a previous experiment. I used the demodulation device to recover the voltage across the capacitor of the reader.
+  The objective of this experiment was to apply the knowledge about demodulation I gained in a previous experiment. I used the demodulation device to recover the modulating signal hidden in the voltage across the capacitor of the reader.
 </p>
 
 <h2>Steps of the Experiment</h2>
@@ -25,7 +25,7 @@
 
 <h3>2. Building the Demodulation Device</h3>
 <p>
-    We chose to use an amplitude demodulation device for this experiment since I had already used one in a previous experiment, and it was perfectly suited to my needs.
+    I chose to use an amplitude demodulation device for this experiment since I had already used one in a previous experiment, and it was perfectly suited to my needs.
 </p>
 <p>
 <strong>Devices used:</strong>
