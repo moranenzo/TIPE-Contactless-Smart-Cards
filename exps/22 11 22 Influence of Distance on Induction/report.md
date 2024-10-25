@@ -11,8 +11,12 @@
 <p>
     I decided to use two very simple circuits. The first circuit consists of a function generator (GBF) and a coil (I did not add an extra resistor due to the internal resistor of the GBF), which is connected to a simple coil where I measured the voltage.
 </p>
+
+<p>
+<strong>Parameters used:</strong>
+</p>
 <ul>
-  <li>L1 = L2 = 36mH</li>
+  <li>Inductance of coils: L1 = L2 = 36mH</li>
   <li>Function Generator (GBF): A = 5V peak-to-peak, 1kHz</li>
 </ul>
 
