@@ -37,7 +37,7 @@
   <li>At distances of 2 to 3 cm, the amplitude becomes insufficient to transmit complex signals, defining this as our effective distance limit.</li>
 </ul>
 
-<h3>Results</h3>
+<h2>Results</h2>
 <p>
   The experiment demonstrated a clear relationship between distance and voltage amplitude. As anticipated, increasing the distance between the coils caused a decrease in the amplitude of the voltage measured in the capacitor. Results confirmed that at distances of 2 to 3 cm, the voltage amplitude is inadequate for transmitting complex signals, establishing this range as the effective operational limit for our model. This finding is crucial for future experiments, as it provides a guideline for optimizing the card-reader system’s design and functionality.
 </p>
