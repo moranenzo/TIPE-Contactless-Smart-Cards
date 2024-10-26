@@ -36,8 +36,8 @@
 <h2>Contents</h2>
 <ul>
   <li><strong>/code</strong>: Contains the Python and Arduino code for the message transmission and signal processing.</li>
-  <li><strong>/docs</strong>: The full report and presentation slides detailing the project methodology, experiments, and conclusions.</li>
-  <li><strong>/exps</strong>: All our experiments with a report, pics and the data used.</li>
+  <li><strong>/docs</strong>: The MCOT and presentation slides detailing the project methodology, experiments, and conclusions.</li>
+  <li><strong>/exps</strong>: All my experiments with reports, pics and the data used.</li>
   <li><strong>/src</strong>: Resources used to discover the double induction and its application to RFID.</li>
 </ul>
 
