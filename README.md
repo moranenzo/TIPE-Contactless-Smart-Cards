@@ -35,10 +35,10 @@
 
 <h2>Contents</h2>
 <ul>
-  <li><strong>/code</strong>: Contains the Python and Arduino code for the message transmission and signal processing.</li>
   <li><strong>/docs</strong>: The MCOT and presentation slides detailing the project methodology, experiments, and conclusions.</li>
   <li><strong>/exps</strong>: All my experiments with reports, pics and the data used.</li>
-  <li><strong>/src</strong>: Resources used to discover the double induction and its application to RFID.</li>
+  <li><strong>/refs</strong>: Resources used to discover the double induction and its application to RFID.</li>
+  <li><strong>/src</strong>: Contains the Python and C++ code for the message transmission and signal processing.</li>
 </ul>
 
 <h2>Key Results</h2>
@@ -53,6 +53,6 @@
   <li>Clone the repository:  
     <pre><code>git clone https://github.com/moranenzo/TIPE-Contactless-Smart-Cards.git</code></pre>
   </li>
-  <li>Explore the code in the <strong>/code</strong> directory for signal processing and transmission.</li>
+  <li>Explore the code in the <strong>/src</strong> directory for signal processing and transmission.</li>
   <li>Refer to the <strong>/docs</strong> folder for detailed explanations of the project.</li>
 </ol>
