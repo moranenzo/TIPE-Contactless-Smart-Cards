@@ -1,11 +1,11 @@
 <h1 align="center">TIPE: Communication of Contactless Smart Cards - Principles and Applications</h1>
 
 <p align="center">
-  <strong>Author:</strong> Enzo Moran <br>
-  <strong>GitHub:</strong> <a href="https://github.com/moranenzo">moranenzo</a>
+  <strong>Author:</strong> Enzo Moran and Mathis Rezaï <br> 
+  <strong>GitHub:</strong> <a href="https://github.com/moranenzo">moranenzo</a>, <a href="https://github.com/mathisrezai">mathisrezai</a>
 </p>
 
-<p>This repository showcases my TIPE (Travail d'Initiative Personnelle Encadré) project, which earned me a score of 17/20 from the jury. This project is all about <strong>contactless smart card communication</strong> using <strong>RFID technology</strong>. The objective was to explore how data can be transmitted and received from transport cards using RFID, and also to create a model for the card-reader interaction and experimenting by sending our own message.</p>
+<p>This repository showcases our TIPE (Travail d'Initiative Personnelle Encadré) project, which earned us a score of 17/20 from the jury. This project is all about <strong>contactless smart card communication</strong> using <strong>RFID technology</strong>. The objective was to explore how data can be transmitted and received from transport cards using RFID, and also to create a model for the card-reader interaction and experimenting by sending our own message.</p>
 
 <h2>Project Overview</h2>
 
