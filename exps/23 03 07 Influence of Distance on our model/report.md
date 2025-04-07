@@ -2,14 +2,14 @@
 
 <h2>Objective of the Experiment</h2>
 <p>
-  In a previous experiment, I highlighted the significant effect of distance between the two coils on the induction effect. This experiment aims to further investigate the influence of distance on our model and determine the maximum effective distance for reliable operation. Since no message is transmitted when the card is not directly in front of the reader, the distance between the two coils is expected to greatly affect message transmission quality. Defining a maximum operational distance is therefore essential.
+  In a previous experiment, we highlighted the significant effect of distance between the two coils on the induction effect. This experiment aims to further investigate the influence of distance on our model and determine the maximum effective distance for reliable operation. Since no message is transmitted when the card is not directly in front of the reader, the distance between the two coils is expected to greatly affect message transmission quality. Defining a maximum operational distance is therefore essential.
 </p>
 
 <h2>Steps of the Experiment</h2>
 
 <h3>1. Building the Card-Reader Model</h3>
 <p>
-    I assembled the card and reader circuits.
+    We assembled the card and reader circuits.
 </p>
 <p>
 <strong>Parameters Used:</strong>
@@ -25,12 +25,12 @@
 
 <h3>2. Data Collection</h3>
 <p>
-    To examine the impact of distance between the coils, I measured the amplitude of the voltage across the capacitor in the reader circuit at various distances. I then plotted the voltage amplitude as a function of the distance between the coils.
+    To examine the impact of distance between the coils, we measured the amplitude of the voltage across the capacitor in the reader circuit at various distances. We then plotted the voltage amplitude as a function of the distance between the coils.
 </p>
 
 <h3>3. Observations</h3>
 <p>
-    By analyzing the plotted data, I deduced the following information:
+    By analyzing the plotted data, we deduced the following information:
 </p>
 <ul>
   <li>Distance significantly affects the voltage amplitude, as expected.</li>

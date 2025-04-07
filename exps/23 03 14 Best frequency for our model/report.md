@@ -9,7 +9,7 @@
 
 <h3>1. Building the Card-Reader Model</h3>
 <p>
-    I assembled the card and reader circuits.
+    We assembled the card and reader circuits.
 </p>
 <p>
 <strong>Parameters Used:</strong>
@@ -25,12 +25,12 @@
 
 <h3>2. Data Collection</h3>
 <p>
-    For each frequency, I measured the voltage amplitude across the capacitor with a 0 Ω resistor in the card ("low value" of voltage) and with a 1 kΩ resistor ("high value" of voltage).
+    For each frequency, we measured the voltage amplitude across the capacitor with a 0 Ω resistor in the card ("low value" of voltage) and with a 1 kΩ resistor ("high value" of voltage).
 </p>
 
 <h3>3. Observations</h3>
 <p>
-    After plotting and analyzing the data, I noted the following:
+    After plotting and analyzing the data, we noted the following:
 </p>
 <ul>
   <li>A maximum difference at approximately 3540 Hz</li>

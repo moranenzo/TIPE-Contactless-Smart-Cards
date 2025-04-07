@@ -9,7 +9,7 @@
 
 <h3>1. Initial Coding Challenges</h3>
 <p>
-    I encountered initial issues with the code, as I could not test it without an Arduino on hand. After debugging multiple errors, I managed to get the code functioning correctly. Upon successful testing, the LED responded as expected, turning on and off based on the binary sequence.
+    We encountered initial issues with the code, as we could not test it without an Arduino on hand. After debugging multiple errors, we managed to get the code functioning correctly. Upon successful testing, the LED responded as expected, turning on and off based on the binary sequence.
 </p>
 <p>
   <strong>Note:</strong> The LED briefly lights up when the code is uploaded to the board.
@@ -18,8 +18,8 @@
 <h3>2. Arduino Code for Binary-to-Voltage Conversion</h3>
 <h4>2.1 Code Execution and Testing</h4>
 <ul>
-  <li>Sent the binary message from the Arduino Serial Monitor</li>
-  <li>Connected an oscilloscope to verify voltage output from the Arduino</li>
+  <li>We sent the binary message from the Arduino Serial Monitor</li>
+  <li>We connected an oscilloscope to verify voltage output from the Arduino</li>
   <li>Successful test example observed: see result (1)</li>
 </ul>
 <p>
@@ -36,7 +36,7 @@
 
 <h3>3. Message Transmission Test from Python</h3>
 <p>
-    The attempt to send the message via Python was unsuccessful. Due to time constraints, I opted to continue with message transmission through the Arduino Console, as it did not significantly impact the experiment.
+    Our attempt to send the message via Python was unsuccessful. Due to time constraints, we opted to continue with message transmission through the Arduino Console, as it did not significantly impact the experiment.
 </p>
 
 <h3>Observation Details</h3>
@@ -51,5 +51,5 @@
 
 <h2>Results</h2>
 <p>
-  The experiment confirmed that binary messages could be converted into voltage variations via Arduino. Oscilloscope tests validated the expected voltage spikes during message transmission. Although the Python-based transmission attempt did not succeed, using the Arduino Serial Monitor produced the desired outcomes. The LED’s behavior validated the accuracy of the binary-to-voltage conversion, overcoming the initial coding and hardware synchronization challenges. Overall, the experiment achieved its goal successfully.
+  The experiment confirmed that binary messages could be converted into voltage variations via Arduino. Oscilloscope tests validated the expected voltage spikes during message transmission. Although our Python-based transmission attempt did not succeed, using the Arduino Serial Monitor produced the desired outcomes. The LED’s behavior validated the accuracy of the binary-to-voltage conversion, overcoming the initial coding and hardware synchronization challenges. Overall, the experiment achieved its goal successfully.
 </p>

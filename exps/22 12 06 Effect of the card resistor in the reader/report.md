@@ -1,34 +1,44 @@
-<h1>Experiment Report: Impact of Variable Resistance on Voltage Amplitude</h1>
+<h1>Experiment Report: Testing the Amplitude Demodulation Device</h1>
 
 <h2>Objective of the Experiment</h2>
 <p>
-    The goal of this experiment was to investigate how varying the resistance of a simulated RFID card affects the voltage amplitude measured across the capacitor in the primary circuit of the reader system. Specifically, we aimed to observe changes in amplitude as the card's resistance was adjusted.
-</p>
-
-<h2>Experiment Setup</h2>
-
-<p>
-    In this setup, the reader circuit was connected to a low-frequency generator (LFG) that provided a constant voltage signal. A second circuit, representing an RFID card, was positioned at different distances from the reader. By varying the resistance of this secondary circuit, we analyzed its impact on the voltage measured in the reader's circuit.
+  The objective of this experiment was to test an amplitude demodulation device, enabling us to retrieve the modulating signal carried by the message transmitted by the card. For this purpose, we used the demodulation device on a sample circuit.
 </p>
 
 <h2>Steps of the Experiment</h2>
 
-<h3>1. Measuring Voltage without the Card</h3>
+<h3>1. Building the Circuit</h3>
 <p>
-    First, we measured the voltage amplitude across the capacitor of the reader's circuit without placing the simulated card in front of it. The measured amplitude was approximately 7.5 V.
+    We assembled a basic circuit to test the demodulation device, using a multiplier to modulate the signal.
 </p>
-
-<h3>2. Introducing the Simulated Card</h3>
 <p>
-    Next, we placed the circuit representing the RFID card in front of the reader and observed the effects of varying its resistance.
+<strong>Parameters Used:</strong>
 </p>
-
 <ul>
-    <li>When the card's resistance was set to a very low value (close to 0 Ω), the measured voltage in the reader's circuit dropped significantly from 7.5 V to 2.5 V.</li>
-    <li>When the card's resistance was increased to a very high value (e.g., 1 kΩ), the amplitude returned to its initial value of 7.5 V, as if the card had no impact and no interaction was occurring.</li>
+    <li>Carrier signal: 70 kHz, 10 Vpp</li>
+    <li>Modulation signal: 300 Hz, 1 Vpp</li>
 </ul>
 
-<h2>Results</h3>
+<h3>2. Constructing the Demodulation Device</h3>
 <p>
-    The experiment demonstrated that the card's resistance has a significant impact on the voltage amplitude measured in the reader circuit. A low resistance caused a substantial reduction in amplitude, while a high resistance made the card’s influence negligible.
+    We opted for an amplitude demodulation device for this experiment, following the recommendation of our tutor.
+</p>
+<p>
+<strong>Components Used:</strong>
+</p>
+<ul>
+    <li>Multiplier</li>
+    <li>Diode</li>
+    <li>Capacitor: Cd = 0.22 µF</li>
+    <li>Resistor: Rd = 10 kΩ</li>
+</ul>
+
+<h3>3. Observations</h3>
+<p>
+    We plotted the voltage recovered after the demodulator, as well as the input voltage to the demodulator, over time. We observed that the recovered signal accurately matches the demodulation of the input signal, with negligible time delay.
+</p>
+
+<h2>Results</h2>
+<p>
+    The demodulation system functioned effectively. We successfully retrieved the modulating signal, confirming that this setup is well-suited to our needs and can be applied in future experiments.
 </p>
