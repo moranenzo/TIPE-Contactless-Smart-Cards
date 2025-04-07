@@ -9,7 +9,7 @@
 
 <h3>1. Building a Circuit to Study the Phenomenon</h3>
 <p>
-    I used two simple circuits for this experiment. The first circuit consists of a function generator (GBF) and a coil (without an additional resistor due to the GBF's internal resistance), which is connected to a simple coil where I measured the voltage.
+    We used two simple circuits for this experiment. The first circuit consists of a function generator (GBF) and a coil (without an additional resistor due to the GBF's internal resistance), which is connected to a simple coil where we measured the voltage.
 </p>
 
 <p>
@@ -22,12 +22,12 @@
 
 <h3>2. Data Collection</h3>
 <p>
-    To assess the impact of the distance between the coils, I plotted the amplitude of the voltage measured in the card as a function of distance. For each distance between the two coils, I recorded the amplitude of the voltage around the isolated coil.
+    To assess the impact of the distance between the coils, we plotted the amplitude of the voltage measured in the card as a function of distance. For each distance between the two coils, we recorded the amplitude of the voltage around the isolated coil.
 </p>
 
 <h3>3. Observations</h3>
 <p>
-    By plotting all the data collected and analyzing the curves, I observed the following:
+    By plotting all the data collected and analyzing the curves, we observed the following:
 </p>
 <ul>
   <li>Distance has a significant influence on the amplitude of the voltage.</li>
@@ -36,5 +36,4 @@
 
 <h2>Results</h2>
 <p>
-  The results indicate a strong influence of distance on voltage amplitude. At distances of 2 to 3 cm, the amplitude is insufficient for transmitting complex signals. However, this limitation is not problematic, as cards are typically positioned close to the reader in real-life applications.
-</p>
+  The results indicate a strong influence of distance on voltage amplitude. At distances of 2 to 3 cm, the amplitude is insufficient for transmitting complex signals. However, this limitation is not problematic, as cards are typically positioned close to the reader
