@@ -4,7 +4,7 @@
   <strong>TIPE Project - Bibliographic Resources</strong>  
 </p>
 
-This folder contains all the key references we used to guide our research and experiments during the TIPE project on **contactless smart card communication via RFID**. Each resource here played a specific role in helping us understand, model, and implement the transmission of custom messages through electromagnetic coupling.
+This folder contains all the key references we used to guide our research and experiments during the TIPE project. Each resource here played a specific role in helping us understand, model, and implement the transmission of custom messages through electromagnetic coupling.
 
 ---
 
