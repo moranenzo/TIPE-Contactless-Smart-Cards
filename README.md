@@ -26,7 +26,7 @@
 </ul>
 
 <h3>3. Custom Message Transmission</h3>
-<p>In the final part, I conducted an experiment to transmit a custom message using the card-reader setup. The key steps included:</p>
+<p>In the final part, we conducted an experiment to transmit a custom message using the card-reader setup. The key steps included:</p>
 <ul>
   <li>Sending a message via the RFID link.</li>
   <li>Receiving it by demodulating of the carrier signal to retrieve the transmitted data via Arduino.</li>
@@ -36,7 +36,7 @@
 <h2>Contents</h2>
 <ul>
   <li><strong>/docs</strong>: The MCOT and presentation slides detailing the project methodology, experiments, and conclusions.</li>
-  <li><strong>/exps</strong>: All my experiments with reports, pics and the data used.</li>
+  <li><strong>/exps</strong>: All our experiments with reports, pics and the data used.</li>
   <li><strong>/refs</strong>: Resources used to discover the double induction and its application to RFID.</li>
   <li><strong>/src</strong>: Contains the Python and C++ code for the message transmission and signal processing.</li>
 </ul>
