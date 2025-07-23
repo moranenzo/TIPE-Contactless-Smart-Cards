@@ -38,8 +38,7 @@ This resource helped us **design our own electrical setup** for modulating and r
 
 ---
 
-### `PT-2015-Info-RFID-Sujet.pdf`  
-### `PT-2015-Info-RFID-Corrigé.pdf`
+### `PT-2015-Info-RFID-Sujet.pdf` and `PT-2015-Info-RFID-Corrigé.pdf`
 
 These documents, published by **Banque PT**, are among the first we found on the topic of RFID. They offered:
 - A clear introduction to how RFID systems work,
@@ -47,17 +46,6 @@ These documents, published by **Banque PT**, are among the first we found on the
 - Practical examples and **data tables** we compared against our results.
 
 They served as a **technical reference and learning base** throughout the project and helped us link theory with our experimental observations.
-
----
-
-## Where to Look
-
-| File | Description |
-|------|-------------|
-| `parite encode_hamming decode_hamming.py` | Python implementation of error correction via Hamming codes |
-| `Systèmes et techniques RFID - Claude TETELIN.pdf` | Technical reference for RFID physics and system design |
-| `Site G-Goessel.url` | Practical example of message transmission with RFID and analog circuits |
-| `PT-2015-Info-RFID-Sujet.pdf` / `PT-2015-Info-RFIDCorrigé.pdf` | Problem set and solutions with detailed modeling of RFID systems |
 
 ---
 
