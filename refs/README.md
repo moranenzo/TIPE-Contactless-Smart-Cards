@@ -10,12 +10,6 @@ This folder contains all the key references we used to guide our research and ex
 
 ##  Reference Overview
 
-### `encode_hamming.py` & `decode_hamming.py`
-
-These Python scripts implement **Hamming Error-Correcting Codes**. They allowed us to detect and correct specific transmission errors. This was essential to ensure the **integrity of the messages** transmitted over the RFID link, especially during our custom message experiments. This approach helped us understand the fundamentals of **error correction** in digital communication.
-
----
-
 ### `Systèmes et techniques RFID - Claude TETELIN.pdf`
 
 This in-depth technical document introduced us to the **core physical principles of RFID**. It was key to understanding:
