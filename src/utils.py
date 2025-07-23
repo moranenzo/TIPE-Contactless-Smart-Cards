@@ -1,3 +1,10 @@
+# These Python scripts implement Hamming Error-Correcting Codes.
+# They allowed us to detect and correct specific transmission errors.
+# This was essential to ensure the integrity of the messages transmitted over the RFID link,
+# especially during our custom message experiments.
+# This approach helped us understand the fundamentals of error correction in digital communication.
+
+
 def parity(bits):
     "Function that returns the parity bit of a binary word given as a list of 0s and 1s"
     bit_sum = 0
