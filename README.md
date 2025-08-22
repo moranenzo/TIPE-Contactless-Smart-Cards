@@ -29,14 +29,14 @@
 <p>In the final part, we conducted an experiment to transmit a custom message using the card-reader setup. The key steps included:</p>
 <ul>
   <li>Sending a message via the RFID link.</li>
-  <li>Receiving it by demodulating of the carrier signal to retrieve the transmitted data via Arduino.</li>
+  <li>Receiving it by demodulating the carrier signal to retrieve the transmitted data via Arduino.</li>
   <li>Using Python to retrieve the message by processing the received data and to compare it with the transmitted message via Python.</li>
 </ul>
 
 <h2>Contents</h2>
 <ul>
   <li><strong>/docs</strong>: The MCOT and presentation slides detailing the project methodology, experiments, and conclusions.</li>
-  <li><strong>/exps</strong>: All our experiments with reports, pics and the data used.</li>
+  <li><strong>/exps</strong>: All our experiments with reports, pictures and data used.</li>
   <li><strong>/refs</strong>: Resources used to discover the double induction and its application to RFID.</li>
   <li><strong>/src</strong>: Contains the Python and C++ code for the message transmission and signal processing.</li>
 </ul>
@@ -47,12 +47,3 @@
   <li>Transmission and reception of custom messages using an Arduino for signal transmission and Python for signal processing.</li>
   <li>Successful demonstration of contactless communication using RFID.</li>
 </ul>
-
-<h2>How to Use</h2>
-<ol>
-  <li>Clone the repository:  
-    <pre><code>git clone https://github.com/moranenzo/TIPE-Contactless-Smart-Cards.git</code></pre>
-  </li>
-  <li>Explore the code in the <strong>/src</strong> directory for signal processing and transmission.</li>
-  <li>Refer to the <strong>/docs</strong> folder for detailed explanations of the project.</li>
-</ol>
